@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- '8'
+deploy:
+  provider: npm
+  email: supersnager@gmail.com
+  api_key:
+    secure: pD/MB/4Ckj9iChnWsybOU5K3YZUPCK6vJtFTOBv6UjDqx/ufH+/tAhiXTHJlzTSHrYzXi4rAI99EqosxHfVYM6FLn46b5sKyiMWPqIe0Max1okdHVlf+rxFLQCLibxoEYQjvMNLkXjqnEzF5y6dvj7wN97XS6cbaxxq7acvOR1AJ7MCBzQ8izLqdia5kKePIh5kLrvwr2kmMPoza6IFgrlah4ZM7TCrMfhMIjgwZDqQYH99G1ELY6/9ntGh8+u25NRNqO+X6xdjCceiwa1bJSoePsEdj0GpV8i7EevcRZf2yj5ilviydSDDM5V+U8YJyZmfYxWXO63qFcOc7Moa2OhKcgqzXAHMXdFrklwWpEfsGMPaJf7Slz9dcGgA/JC/ocHfyKLi47kXu/TUlU6xkFWwPhL5MZGPP8cu/aYR1AlN+yZA0/ZYCWTEMLxWNNJdSQAtmkDUJsApJTJLaigVgydZH+rSCVhzX+ODwjtN+S7zq2OltITEkxLthXsEkriE0QNqIMbHt71sNwMwWpbzuXoZC6QOtkUxaUODVpSfI3YTmLVDVc2eSGM3b7WRK3vyjg7CIpW2iafbL33FjHt48voisro8b6NGXIicaO+XBaX3dK/tA06z48rUFTbnZFcqrEotLPiJRkb19SbXjdON5qtTupEyuYHuXZ8ZKBAkKcHE=
+  skip_cleanup: true
+  on:
+    tags: true
+    branch: master
