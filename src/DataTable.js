@@ -24,14 +24,14 @@ function DataTable(p) {
       value: cols
     },
     setRows: {
-     value: (rows) =>
+      value: (rows) =>
         DataTable({
           idprop,
           rows,
           cols
         })
-      }
     }
+  }
   ));
 
 }
