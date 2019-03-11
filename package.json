@@ -1,6 +1,6 @@
 {
   "name": "@adt/datatable",
-  "version": "0.0.1-SNAPSHOT.1",
+  "version": "0.0.1-SNAPSHOT.2",
   "description": "Data table abstraction layer",
   "main": "dist/DataTable.cjs.js",
   "module": "dist/DataTable.esm.js",
